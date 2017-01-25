@@ -16,7 +16,7 @@ const mapStateToProps = createSelector(
 const editorDebounceTimeout = 750;
 
 const options = {
-  lint: true,
+  lint: {esversion: 6},
   lineNumbers: true,
   mode: 'javascript',
   theme: 'monokai',
